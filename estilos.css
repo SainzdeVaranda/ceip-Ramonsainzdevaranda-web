@@ -4,17 +4,39 @@ body {
 }
 
 /* CABECERA */
-header {
+.header {
   background: #003366;
   color: white;
-  padding: 15px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: space-between;
+  padding: 10px 30px;
 }
 
-.logo {
+/* Logo izquierdo */
+.header img:first-child {
   height: 60px;
+}
+
+/* Logo derecho */
+.header img:last-child {
+  height: 60px;
+}
+
+/* Centro */
+.titulo {
+  text-align: center;
+}
+
+.titulo h1 {
+  margin: 0;
+}
+
+.titulo p {
+  margin: 0;
+  font-size: 14px;
+}
+``
 }
 
 /* MENÚ */
