@@ -15,7 +15,7 @@ body {
   padding: 25px;
 }
 
-/* LOGOS MUY GRANDES */
+/* LOGOS GRANDES */
 .logo {
   height: 110px;
 }
@@ -35,7 +35,7 @@ body {
   font-size: 20px;
 }
 
-/* MENU */
+/* MENÚ */
 nav {
   background: #0055aa;
   text-align: center;
@@ -53,9 +53,9 @@ nav a:hover {
   background: #0077cc;
 }
 
-/* IMAGEN COMO FONDO */
+/* IMAGEN PRINCIPAL COMO FONDO */
 .hero {
-  background: url("brush.jpeg") no-repeat center center;
+  background: url("brush.jpg") no-repeat center center;
   background-size: cover;
   height: 400px;
   display: flex;
@@ -68,6 +68,7 @@ nav a:hover {
   background: rgba(0,0,0,0.5);
   color: white;
   padding: 15px 20px;
+  border-radius: 8px;
 }
 
 /* CONTENIDO */
@@ -84,3 +85,4 @@ footer {
   text-align: center;
   padding: 15px;
 }
+``
