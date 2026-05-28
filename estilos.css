@@ -3,7 +3,8 @@ body {
   margin: 0;
 }
 
-/* CABECERA */.header {
+/* CABECERA */
+.header {
   background: #003366;
   color: white;
   display: flex;
@@ -12,12 +13,10 @@ body {
   gap: 20px;                 /* espacio entre elementos */
   padding: 15px;
 }
-
-/* logos */
 .logo {
   height: 60px;
 }
-
+``
 /* texto */
 .titulo {
   text-align: center;
