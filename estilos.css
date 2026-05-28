@@ -2,20 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
-
 /* CABECERA */
 .header {
-  background: #003366;
+  background: #1e5fa8;   /* azul más claro */
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   padding: 20px;
 }
 
-/* LOGOS GRANDES */
-.logo {
+/* LOGO IZQUIERDO MÁS GRANDE */
+.header img:first-child {
+  height: 140px;   /* más grande solo el logo izquierdo */
+}
+
+/* LOGO DERECHO */
+.header img:last-child {
   height: 100px;
 }
 
@@ -33,7 +37,6 @@ body {
   margin: 0;
   font-size: 18px;
 }
-
 /* MENÚ */
 nav {
   background: #0055aa;
