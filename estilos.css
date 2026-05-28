@@ -1,61 +1,64 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background: #f4f6f9;
 }
+
 /* CABECERA */
 .header {
-  background: #1e5fa8;   /* azul más claro */
+  background: #2e6fb8;   /* azul claro */
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  padding: 20px;
+  gap: 60px;
+  padding: 25px;
 }
 
-/* LOGO IZQUIERDO MÁS GRANDE */
-.header img:first-child {
-  height: 140px;   /* más grande solo el logo izquierdo */
+/* LOGO IZQUIERDO GRANDE */
+.logo-izq {
+  height: 150px;
 }
 
 /* LOGO DERECHO */
-.header img:last-child {
+.logo-der {
   height: 100px;
 }
 
-/* TEXTO */
+/* TEXTO CENTRAL */
 .titulo {
   text-align: center;
 }
 
 .titulo h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .titulo p {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
 }
+
 /* MENÚ */
 nav {
-  background: #0055aa;
+  background: #3f82d4;
   text-align: center;
 }
 
 nav a {
   color: white;
-  padding: 15px;
+  padding: 15px 20px;
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  background: #0077cc;
+  background: #5a9be6;
 }
 
-/* IMAGEN PRINCIPAL */
+/* IMAGEN PRINCIPAL FONDO */
 .hero {
   background-image: url("brush.jpg");
   background-size: cover;
@@ -70,22 +73,10 @@ nav a:hover {
 .texto-hero {
   background: rgba(0,0,0,0.5);
   color: white;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 8px;
 }
 
-/* CONTENIDO */
-section {
-  padding: 30px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-/* FOOTER */
-footer {
-  background: #003366;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-``
+/* SECCIONES CENTRADAS */
+.contenido {
+  max-width: 900px;
