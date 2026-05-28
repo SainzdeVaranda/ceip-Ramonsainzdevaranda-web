@@ -2,34 +2,25 @@ body {
   font-family: Arial;
   margin: 0;
 }
-
-/* CABECERA */
+/* HEADER */
 .header {
   background: #003366;
   color: white;
   display: flex;
-  justify-content: center;   /* centra todo */
+  justify-content: center;
   align-items: center;
-  gap: 20px;                 /* espacio entre elementos */
-  padding: 15px;
+  gap: 30px;   /* más espacio */
+  padding: 20px;
 }
+
+/* LOGOS MÁS GRANDES */
 .logo {
-  height: 60px;
-}
-``
-/* texto */
-.titulo {
-  text-align: center;
+  height: 90px;   /* antes 60 → ahora más grande */
 }
 
+/* TEXTO MÁS GRANDE */
 .titulo h1 {
-  margin: 0;
-}
-
-.titulo p {
-  margin: 0;
-  font-size: 14px;
-}
+  font-size: 32px;   /* nombre más grande */
 
 /* MENÚ */
 nav {
