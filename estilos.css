@@ -3,27 +3,22 @@ body {
   margin: 0;
 }
 
-/* CABECERA */
-.header {
+/* CABECERA */.header {
   background: #003366;
   color: white;
   display: flex;
+  justify-content: center;   /* centra todo */
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 30px;
+  gap: 20px;                 /* espacio entre elementos */
+  padding: 15px;
 }
 
-/* Logo izquierdo */
-.header img:first-child {
+/* logos */
+.logo {
   height: 60px;
 }
 
-/* Logo derecho */
-.header img:last-child {
-  height: 60px;
-}
-
-/* Centro */
+/* texto */
 .titulo {
   text-align: center;
 }
@@ -35,8 +30,6 @@ body {
 .titulo p {
   margin: 0;
   font-size: 14px;
-}
-``
 }
 
 /* MENÚ */
